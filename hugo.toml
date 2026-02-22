@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://blog-4xs.pages.dev"
 languageCode = "en"
 title = "long variables"
 theme = "PaperMod"
