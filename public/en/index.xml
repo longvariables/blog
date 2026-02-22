@@ -6,19 +6,21 @@
     <description>Recent content on long variables</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 13:56:02 +0800</lastBuildDate>
+    <managingEditor>longvariables@proton.me (long variables)</managingEditor>
+    <webMaster>longvariables@proton.me (long variables)</webMaster>
+    <lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello</title>
-      <link>http://localhost:1313/en/posts/hello/</link>
-      <pubDate>Sun, 22 Feb 2026 13:56:02 +0800</pubDate>
-      <guid>http://localhost:1313/en/posts/hello/</guid>
-      <description>&lt;p&gt;This is the first post.&lt;/p&gt;</description>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><author>longvariables@proton.me (long variables)</author>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;p&gt;This is a personal writing space.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Endgame of the Rules-Based Order</title>
       <link>http://localhost:1313/en/posts/endgame-rules-based-order-en/</link>
-      <pubDate>Sat, 21 Feb 2026 13:56:02 -0800</pubDate>
+      <pubDate>Sat, 21 Feb 2026 13:56:02 -0800</pubDate><author>longvariables@proton.me (long variables)</author>
       <guid>http://localhost:1313/en/posts/endgame-rules-based-order-en/</guid>
       <description>Influence, Territory, and Late-Stage Unipolarity</description>
     </item>

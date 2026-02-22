@@ -6,14 +6,23 @@
     <description>Recent content on long variables</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>zh</language>
+    <managingEditor>longvariables@proton.me (long variables)</managingEditor>
+    <webMaster>longvariables@proton.me (long variables)</webMaster>
     <lastBuildDate>Sat, 21 Feb 2026 21:31:51 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第一强国不再守规则：单极秩序的终局推演</title>
       <link>http://localhost:1313/zh/posts/endgame-rules-based-zh/</link>
-      <pubDate>Sat, 21 Feb 2026 21:31:51 -0800</pubDate>
+      <pubDate>Sat, 21 Feb 2026 21:31:51 -0800</pubDate><author>longvariables@proton.me (long variables)</author>
       <guid>http://localhost:1313/zh/posts/endgame-rules-based-zh/</guid>
       <description>当规则让位于收益：世界会继续同盘博弈，还是走向分盘对弈？</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>http://localhost:1313/zh/about/</link>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><author>longvariables@proton.me (long variables)</author>
+      <guid>http://localhost:1313/zh/about/</guid>
+      <description>&lt;p&gt;这里是一个个人写作空间。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,26 +1,67 @@
-baseURL = "https://blog-4xs.pages.dev/"
-title = "long variables"
-theme = "PaperMod"
+# --- Base ---
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
+# 建议你把这里换成 Cloudflare Pages 的正式域名（或以后自定义域名）
+baseURL = "https://blog-4xs.pages.dev/"
+theme = "PaperMod"
+
+# disableKinds = ["RSS"]
+
+
+# --- Languages ---
 [languages]
-
   [languages.en]
-    languageName = "English"
+    languageName = "EN"
     weight = 1
     contentDir = "content/en"
     title = "long variables"
 
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Posts"
+        url = "/en/posts/"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/en/tags/"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "/en/search/"
+        weight = 30
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/en/about/"
+        weight = 40
+
   [languages.zh]
     languageName = "中文"
-    contentDir = "content/zh"
     weight = 2
+    contentDir = "content/zh"
     title = "long variables"
 
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        name = "文章"
+        url = "/zh/posts/"
+        weight = 10
+      [[languages.zh.menu.main]]
+        name = "标签"
+        url = "/zh/tags/"
+        weight = 20
+      [[languages.zh.menu.main]]
+        name = "搜索"
+        url = "/zh/search/"
+        weight = 30
+      [[languages.zh.menu.main]]
+        name = "关于"
+        url = "/zh/about/"
+        weight = 40
+
+# --- PaperMod params ---
 [params]
-  author = "long variables"
-  defaultTheme = "auto"
+  # defaultTheme = "auto"
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -28,8 +69,15 @@ defaultContentLanguageInSubdir = false
   ShowShareButtons = false
   ShowLanguageSwitcher = true
 
-[params.homeInfoParams]
-  Title = "long variables"
-  Content = "Notes, essays, and experiments."
+  # home intro
+  [params.homeInfoParams]
+    Title = "long variables"
+    Content = "Notes, essays, and experiments."
 
+  [params.author]
+    name = "long variables"
+    email = "longvariables@proton.me"
+
+
+# Home lists only posts
 mainSections = ["posts"]
