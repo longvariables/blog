@@ -11,3 +11,9 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowShareButtons = false
+
+[params.homeInfoParams]
+  Title = "long variables"
+  Content = "Notes, essays, and experiments."
+
+mainSections = ["posts"]
