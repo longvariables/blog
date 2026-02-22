@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>long variables</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on long variables</description>
+    <title>Ens on long variables</title>
+    <link>http://localhost:1313/en/en/</link>
+    <description>Recent content in Ens on long variables</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Feb 2026 13:56:02 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
-      <link>http://localhost:1313/posts/hello/</link>
+      <link>http://localhost:1313/en/en/posts/hello/</link>
       <pubDate>Sun, 22 Feb 2026 13:56:02 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
+      <guid>http://localhost:1313/en/en/posts/hello/</guid>
       <description>&lt;p&gt;This is the first post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Endgame of the Rules-Based Order</title>
-      <link>http://localhost:1313/posts/endgame-rules-based-order-en/</link>
+      <link>http://localhost:1313/en/en/posts/endgame-rules-based-order-en/</link>
       <pubDate>Sat, 21 Feb 2026 13:56:02 -0800</pubDate>
-      <guid>http://localhost:1313/posts/endgame-rules-based-order-en/</guid>
+      <guid>http://localhost:1313/en/en/posts/endgame-rules-based-order-en/</guid>
       <description>Influence, Territory, and Late-Stage Unipolarity</description>
     </item>
   </channel>

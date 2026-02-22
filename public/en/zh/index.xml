@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zhs on long variables</title>
+    <link>http://localhost:1313/en/zh/</link>
+    <description>Recent content in Zhs on long variables</description>
+    <generator>Hugo -- 0.156.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Feb 2026 21:31:51 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一强国不再守规则：单极秩序的终局推演</title>
+      <link>http://localhost:1313/en/zh/posts/endgame-rules-based-zh/</link>
+      <pubDate>Sat, 21 Feb 2026 21:31:51 -0800</pubDate>
+      <guid>http://localhost:1313/en/zh/posts/endgame-rules-based-zh/</guid>
+      <description>当规则让位于收益：世界会继续同盘博弈，还是走向分盘对弈？</description>
+    </item>
+  </channel>
+</rss>

@@ -1,7 +1,22 @@
-baseURL = "https://blog-4xs.pages.dev"
-languageCode = "en"
+baseURL = "https://blog-4xs.pages.dev/"
 title = "long variables"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "long variables"
+
+  [languages.zh]
+    languageName = "中文"
+    contentDir = "content/zh"
+    weight = 2
+    title = "long variables"
 
 [params]
   author = "long variables"
@@ -11,6 +26,7 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowShareButtons = false
+  ShowLanguageSwitcher = true
 
 [params.homeInfoParams]
   Title = "long variables"
