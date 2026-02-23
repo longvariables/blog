@@ -1,0 +1,17 @@
+{{- if or .Params.author site.Params.author -}}
+  {{- $author := (.Params.author | default site.Params.author) -}}
+  {{- $t := (printf "%T" $author) -}}
+
+  {{- /* If author is a map/table, show its "name" field (PaperMod RSS expects map support) */ -}}
+  {{- if reflect.IsMap $author -}}
+    {{- with index $author "name" -}}{{- . -}}{{- end -}}
+
+  {{- /* If author is a list */ -}}
+  {{- else if (or (eq $t "[]string") (eq $t "[]interface {}")) -}}
+    {{- delimit $author ", " -}}
+
+  {{- /* If author is a plain string */ -}}
+  {{- else -}}
+    {{- $author -}}
+  {{- end -}}
+{{- end -}}
